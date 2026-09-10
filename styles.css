@@ -23,10 +23,13 @@
  * Change "nord" to whatever theme you set on <html>.
  */
 [data-theme='nord'] {
-  /* --color-primary: #______; */
-  /* --color-primary-content: #______; */
-  /* --color-accent: #______; */
+   --color-primary: #E36414;
+   --color-accent: #5f0f40;
+}  --color-darkred: #9a031e;
+   --color-darkblue: #0f4c5c;
+   --color-lightorange: #fb8b24;
 }
+
 
 /* TYPE
  *
@@ -41,13 +44,7 @@ h1, h2, .card-title { font-family: '______', serif; }
 
 /* STAGE FOUR — your media query, by hand.
  *
- * Read one out loud before you write one: "when the screen is at most 640
- * pixels wide, this rule applies." Everything outside the block applies
- * always; everything inside applies only under that condition.
- *
- * Give an element in index.html a class of your own, then change one stated
- * property on it below a stated width. One rule is enough — the point is that
- * you have written the thing the sm:/md:/lg: prefixes are shorthand for.
+ * 
  */
 /*
 @media (max-width: 640px) {
