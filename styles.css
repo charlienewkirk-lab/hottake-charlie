@@ -23,13 +23,21 @@
  * Change "nord" to whatever theme you set on <html>.
  */
 [data-theme='nord'] {
-   --color-primary: #E36414;
-   --color-accent: #5f0f40;
-}  --color-darkred: #9a031e;
+   --color-primary: #5f0f40;
+   --color-accent: #E36414;
+  --color-darkred: #9a031e;
    --color-darkblue: #0f4c5c;
    --color-lightorange: #fb8b24;
 }
+.hero {
+   background-image: url("https://wallpapercave.com/wp/wp7645007.jpg")
+}
 
+.hero h1 {
+   text-shadow: 2px 2px 5px #5f0f40;
+   font-size: 60px;
+   color: var(--color-lightorange);
+}
 
 /* TYPE
  *
