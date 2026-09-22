@@ -28,7 +28,13 @@
   --color-darkred: #9a031e;
    --color-darkblue: #0f4c5c;
    --color-lightorange: #fb8b24;
+
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 .hero {
    background-image: url("https://wallpapercave.com/wp/wp7645007.jpg")
 }
